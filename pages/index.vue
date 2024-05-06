@@ -46,7 +46,7 @@
         <img
             data-aos="fade-up"
             data-aos-once="true"
-            src="/assets/img/illustrations/undraw_World_re_768g.svg"
+            src="/assets/img/illustrations/undraw_world_re_768g.svg"
             class="   "
             alt=""
         />
