@@ -10,6 +10,7 @@
       </main>
 
     </div>
+    <BaseFooter/>
     </div>
 
 </template>

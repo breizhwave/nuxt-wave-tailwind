@@ -2,7 +2,7 @@
 
 
 <!--  INTRODUCTION SECTION -->
-<section id="waveHero1" class="cover-gradient-2 h-screen">
+<section id="waveHero1" class="cover-gradient-2 h-screen flex items-center ">
   <base-section>
   <div class="col-span-12 lg:col-span-6 mt-12 xl:mt-10 space-y-4 sm:space-y-6 px-6 text-center sm:text-left">
           <span data-aos="fade-right" data-aos-once="true" class="text-base text-gradient font-semibold uppercase"
@@ -17,7 +17,7 @@
   </h1>
 
     <p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" class=" text-base paragraph hidden sm:block">
-      create content online <br>and start selling now.
+      Discover HTML content management <br>Create static pages online  <br><b><i>with custom VUEJS component</i></b>
     </p>
     <div
         data-aos="fade-up"
@@ -107,7 +107,26 @@
   </section>
 
 
+  <!-- FAQ section -->
+  <section class="w-full my-24">
+    <BaseSection>
 
+      <div data-aos="fade-left" data-aos-delay="150" class="col-span-12 lg:col-span-6 px-4 sm:px-6 mt-8">
+        <span class="text-base text-gradient font-semibold uppercase mb-4 sm:mb-2">Support</span>
+        <h2 class="text-3xl sm:text-4xl font-semibold mb-10 sm:mb-6">Frequently asked questions</h2>
+
+        <ul class="shadow-box">
+          <ContentAccordion v-for="(accordion, index) in accordions" :key="index" :accordion="accordion" />
+        </ul>
+      </div>
+
+      <div data-aos="fade-right" data-aos-delay="150" class="col-span-12 lg:col-span-6">
+        <div class="w-full">
+          <img src="/assets/img/illustrations/questions.png" class="w-full" alt="" />
+        </div>
+      </div>
+    </BaseSection>
+  </section>
 
 
 
@@ -134,3 +153,29 @@
   max-height: 0;
 }
 </style>
+
+<script setup>
+const accordions= [
+  {
+    title: 'Why nuxt ?',
+    description:
+        "NUXT3 is a powerful extension of VUEjs that allows to create custom components for easy HTML coding",
+  },
+  {
+    title: 'How does is compare to NEXTJS?',
+    description:
+        "Nuxt is designed for Vue while Next is designed for REACTJS",
+  },
+  {
+    title: 'What about Tailwindcss?',
+    description:
+        "Tailwind css is a specific set of styles .",
+  },
+  {
+    title: 'how does it compare to BOOTSTRAP CSS?',
+    description:
+        "among other interesting features, Tailwind compiles stylesheet to reduce loading time",
+  },
+];
+
+</script>
