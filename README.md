@@ -1,8 +1,10 @@
 # Nuxt 3 tailwind fixed menu responsive width dropdown Minimal Starter
 
-NUXT3 tailwind template with top fixed menu and dropdown, AOS animations
+NUXT3 tailwind template with top fixed menu and dropdown, AOS animations, based on nuxt2 [NEFA](https://www.tailwindawesome.com/resources/nefa)
 
-based on nuxt2 [NEFA](https://www.tailwindawesome.com/resources/nefa)
+**[Online Demo](https://nuxt-wave-tailwind-git-main-breizhwaves-projects.vercel.app/)**
+
+
 
 ![Thumbnail](assets/img/illustrations/screenshot.jpg)
 
@@ -40,7 +42,10 @@ $ pnpm generate
   Error: Could not load /opt/homebrew/lib/node_modules/@nuxt/devtools/node_modules/unstorage/drivers/fs-lite.mjs
   please try  [`pnpm add unstorage]` (https://github.com/nuxt/nuxt/issues/22828#issuecomment-1769180213)
 
-    and always try it with npx serve .output/public 
+
+## current issues
+
+- <i>Hydration class mismatch on</i> AOS elements in dev mode
 
 ## credit
 
