@@ -34,11 +34,12 @@ $ pnpm start
 
 # generate static project
 $ pnpm generate
+```
 
  note : if you get the following  tricky error while generating,
   Error: Could not load /opt/homebrew/lib/node_modules/@nuxt/devtools/node_modules/unstorage/drivers/fs-lite.mjs
   please try  [`pnpm add unstorage]` (https://github.com/nuxt/nuxt/issues/22828#issuecomment-1769180213)
-```
+
     and always try it with npx serve .output/public 
 
 ## credit
