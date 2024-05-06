@@ -4,9 +4,13 @@ NUXT3 tailwind template with top fixed menu and dropdown, AOS animations
 
 based on nuxt2 [NEFA](https://www.tailwindawesome.com/resources/nefa)
 
+![Thumbnail](assets/img/illustrations/screenshot.jpg)
+
 ## Features and components 
 
-- custom component for minimal set of icons
+- WaveIcon.vue custom component for minimal set of icons
+- ContentListItem.vue list element with tick icon
+- BaseNavBar.vue for dorpdown top fixed menu 
 
 ## Setup
 
