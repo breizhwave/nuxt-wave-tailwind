@@ -41,6 +41,7 @@ $ pnpm generate
 ```
     and always try it with npx serve .output/public 
 
-## current issues
+## credit
 
-images from  https://undraw.co/ , https://unsplash.com/ and https://wave.bzh
+- more technical details on https://webmasterbulletin.net 
+- images from  https://undraw.co/ , https://unsplash.com/ and https://wave.bzh
