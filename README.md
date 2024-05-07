@@ -1,6 +1,8 @@
 # Nuxt 3 tailwind fixed menu responsive width dropdown Minimal Starter
 
-NUXT3 tailwind template with top fixed menu and dropdown, AOS animations, based on nuxt2 [NEFA](https://www.tailwindawesome.com/resources/nefa)
+ <img src='https://img.shields.io/badge/nuxt-3-brightgreen.svg'/>  <img src='https://img.shields.io/badge/tailwind-css-blue.svg'/>  <img src='https://img.shields.io/badge/aos-js-green.svg'/>  
+
+Nuxt3 / TailwindCss template with top fixed menu and dropdown, AOS animations, based on nuxt2 [NEFA](https://www.tailwindawesome.com/resources/nefa)
 
 **[Online Demo](https://nuxt-wave-tailwind-git-main-breizhwaves-projects.vercel.app/)**
 
