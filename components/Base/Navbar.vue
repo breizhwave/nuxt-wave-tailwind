@@ -38,13 +38,13 @@
                   class="flex lg:absolute flex-col max-w-42 py-1 lg:bg-white rounded-md lg:shadow-md pl-2 lg:pl-0"
               >
                 <li>
-                  <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Company</a>
+                  <a href="#" class="block py-2 px-4   text-gray-700 hover:bg-gray-100">Company</a>
                 </li>
                 <li>
-                  <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Investors</a>
+                  <a href="#" class="block py-2 px-4 text-gray-700 hover:bg-gray-100">Investors</a>
                 </li>
                 <li>
-                  <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Contact</a>
+                  <a href="#" class="block py-2 px-4   text-gray-700 hover:bg-gray-100">Contact</a>
                 </li>
 
               </ul>
