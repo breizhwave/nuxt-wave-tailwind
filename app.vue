@@ -1,3 +1,3 @@
 <template>
-  <NuxtLayout>  <NuxtPage ref="wavePage"/></NuxtLayout>
+    <NuxtPage ref="wavePage"/>
 </template>

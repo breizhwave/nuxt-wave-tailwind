@@ -3,10 +3,10 @@
   <div class="min-h-screen font-sans antialiased relative">
     <div class="relative">
 
-<BaseNavbar/>
+<BaseNavbar :mode="useAttrs().mode"/>
 
-      <main class="text-neutral-800">
-        <slot/>
+      <main class="text-neutral-800" :class="useAttrs().mode=='full'?'  ':'mt-20'">
+            <slot/>
       </main>
 
     </div>

@@ -1,6 +1,6 @@
 <template>
 
-
+  <NuxtLayout mode="full">
 <!--  INTRODUCTION SECTION -->
 <section id="waveHero1" class="cover-gradient-2 h-screen flex items-center ">
   <base-section>
@@ -128,7 +128,7 @@
     </BaseSection>
   </section>
 
-
+  </NuxtLayout>
 
 </template>
 <script setup lang="ts">

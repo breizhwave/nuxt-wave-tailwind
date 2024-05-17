@@ -1,10 +1,10 @@
 <template>
-  <nav id="navbar" class="relative z-10 w-full text-neutral-800 sticky top-0 bg-white shadow ">
+  <nav id="navbar" class="  z-10 w-full text-neutral-800 fixed top-0 bg-white shadow  " :class="mode=='full'?' opacity-80':''">
     <div class="flex flex-col max-w-screen-xl px-8 mx-auto lg:items-center lg:justify-between lg:flex-row py-4">
       <div class="flex flex-col lg:flex-row items-center space-x-4 xl:space-x-8">
         <div class="w-full flex flex-row items-center justify-between py-1">
-          <div>
-            <img src="~/assets/img/logo/wave-2024-2.png" class="w-24 xl:w-28" alt="Welcome to  wave.bzh" />
+          <div><a href="/">
+            <img src="~/assets/img/logo/wave-2024-2.png" class="w-24 xl:w-28" alt="Welcome to  wave.bzh" /></a>
           </div>
           <button class="rounded-lg lg:hidden focus:outline-none focus:shadow-outline" @click="open = !open">
             <WaveIcon name="menu"  v-if="!open"/>
@@ -25,7 +25,7 @@
                 @click="dropdownToggler"
                 @blur="dropdownToggler"
             >
-              <span class="mr-1">About</span>
+              <span class="mr-1"><a href="/about">About</a></span>
 
               <WaveIcon name="chevronUp"  v-if="dropdownNavbar"/>
               <WaveIcon  v-else  name="chevronDown"  />
@@ -63,9 +63,15 @@
     </div>
   </nav>
 </template>
-<script>
+<script lang="ts">
+
+enum Modes {
+  'full',
+  'pad'
+}
 export default {
   name: 'BaseNavbar',
+  props: { mode:String as ()=>Modes },
   data() {
     return {
       open: false,
