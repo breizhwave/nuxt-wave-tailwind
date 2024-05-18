@@ -4,7 +4,7 @@
 
 Nuxt3 / TailwindCss template with top fixed menu and dropdown, AOS animations, based on nuxt2 [NEFA](https://www.tailwindawesome.com/resources/nefa)
 
-**[Online Demo](https://nuxt-wave-tailwind-git-main-breizhwaves-projects.vercel.app/)**
+**[Online Demo](https://nuxt-wave-tailwind-6wfbca45k-breizhwaves-projects.vercel.app/)**
 
 
 
