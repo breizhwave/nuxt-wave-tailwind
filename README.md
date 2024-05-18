@@ -4,8 +4,9 @@
 
 Nuxt3 / TailwindCss template with top fixed menu and dropdown, AOS animations, based on nuxt2 [NEFA](https://www.tailwindawesome.com/resources/nefa)
 
-**[Online Demo](https://nuxt-wave-tailwind-6wfbca45k-breizhwaves-projects.vercel.app/)**
-
+**Online Demo**
+[Home page with full height hero section and 80% opaque transparent menu](https://nuxt-wave-tailwind-6wfbca45k-breizhwaves-projects.vercel.app/)
+[About Page with variable height section and content padding](https://nuxt-wave-tailwind-6wfbca45k-breizhwaves-projects.vercel.app/about)
 
 
 ![Thumbnail](assets/img/illustrations/screenshot.jpg)
