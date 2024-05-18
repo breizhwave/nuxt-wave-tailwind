@@ -46,7 +46,7 @@
         <img
             data-aos="fade-up"
             data-aos-once="true"
-            src="/assets/img/illustrations/undraw_Fans_re_cri3.svg"
+            src="/assets/img/illustrations/undraw_fans_re_cri3.svg"
             class="   "
             alt=""
         />
