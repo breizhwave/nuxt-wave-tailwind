@@ -13,7 +13,7 @@
       data-aos-once="true"
       class="text-[2.5rem] sm:text-5xl xl:text-6xl font-bold leading-tight capitalize sm:pr-8 xl:pr-10"
   >
-    padding page with fixed menu <span class="text-header-gradient">Fastest Growing</span>    CMS Web App
+    padding page with fixed menu
   </h1>
 
     <p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" class=" text-base paragraph hidden sm:block">
