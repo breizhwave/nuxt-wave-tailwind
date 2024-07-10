@@ -15,41 +15,21 @@
             :class="[open ? 'flex' : 'hidden lg:flex']"
             class="w-full h-auto flex flex-col flex-grow lg:items-center pb-4 lg:pb-0 lg:justify-end lg:flex-row origin-top duration-300 xl:space-x-2 space-y-3 lg:space-y-0"
         >
-          <NavLink name="Components" url="#" />
-          <NavLink name="Templates" url="#" />
-          <NavLink name="Studio" url="#" />
-          <NavLink name="Portfolio" url="#" />
-          <li class="relative group">
-            <button
-                class="md:px-4 py-2  bg-transparent rounded-lg text-[#666666] hover:text-gray-900 focus:outline-none focus:shadow-outline flex items-center"
-                @click="dropdownToggler"
-                @blur="dropdownToggler"
-            >
-              <span class="mr-1"><a href="/about">About</a></span>
+          <BaseNavLinkDropDown name="Components" url="#">
+            <BaseNavLink name="Swiper Slider" url="/slider/swiper"   class=" py-2     text-gray-700 hover:bg-gray-100"  />
+<!--            <BaseNavLink name="Tiny Slider" url="/slider/tiny"   class=" py-2     text-gray-700 hover:bg-gray-100"  />-->
+<!--            <BaseNavLink name="FANKENUI" url="/slider/frankenui"   class=" py-2     text-gray-700 hover:bg-gray-100"  />-->
+          </BaseNavLinkDropDown>
 
-              <WaveIcon name="chevronUp"  v-if="dropdownNavbar"/>
-              <WaveIcon  v-else  name="chevronDown"  />
+          <BaseNavLink name="Templates" url="#" />
+          <BaseNavLink name="Studio" url="#" />
+          <BaseNavLink name="Portfolio" url="#" />
+          <BaseNavLinkDropDown name="About" url="/about">
+            <BaseNavLink name="Company" url="#"   class=" py-2     text-gray-700 hover:bg-gray-100"  />
+            <BaseNavLink name="Investors" url="#"   class=" py-2     text-gray-700 hover:bg-gray-100"  />
+            <BaseNavLink name="Contact" url="#"   class=" py-2     text-gray-700 hover:bg-gray-100"  />
 
-
-            </button>
-
-              <ul
-                  v-if="dropdownNavbar"
-                  class="flex lg:absolute flex-col max-w-42 py-1 lg:bg-white rounded-md lg:shadow-md pl-2 lg:pl-0"
-              >
-                <li>
-                  <a href="#" class="block py-2 px-4   text-gray-700 hover:bg-gray-100">Company</a>
-                </li>
-                <li>
-                  <a href="#" class="block py-2 px-4 text-gray-700 hover:bg-gray-100">Investors</a>
-                </li>
-                <li>
-                  <a href="#" class="block py-2 px-4   text-gray-700 hover:bg-gray-100">Contact</a>
-                </li>
-
-              </ul>
-
-          </li>
+          </BaseNavLinkDropDown>
         </ul>
       </div>
       <div :class="[open ? 'flex' : 'hidden lg:flex']" class="space-x-3">
@@ -75,13 +55,9 @@ export default {
   data() {
     return {
       open: false,
-      dropdownNavbar: false,
+
     }
   },
-  methods: {
-    dropdownToggler () {
-      this.dropdownNavbar = !this.dropdownNavbar
-    }
-  }
+
 }
 </script>

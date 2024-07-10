@@ -3,14 +3,20 @@ lockfileVersion: 5.4
 specifiers:
   '@nuxtjs/tailwindcss': ^6.12.0
   aos: ^2.3.4
+  franken-ui: ^0.0.13
   nuxt: ^3.11.2
+  nuxt-swiper: ^1.2.2
+  uikit: ^3.21.5
   unstorage: ^1.10.2
   vue: ^3.4.26
   vue-router: ^4.3.2
 
 dependencies:
   '@nuxtjs/tailwindcss': 6.12.0
+  franken-ui: 0.0.13
   nuxt: 3.11.2
+  nuxt-swiper: 1.2.2
+  uikit: 3.21.5
   unstorage: 1.10.2
   vue: 3.4.26
   vue-router: 4.3.2_vue@3.4.26
@@ -3408,6 +3414,13 @@ packages:
     resolution: {integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==}
     dev: false
 
+  /franken-ui/0.0.13:
+    resolution: {integrity: sha512-RVwc68dUfn0FmIeBGVor3cyVQ9AZhtKdgJzwQqIjzmv74bTWXXg3Bo75GPVVm7F8uCGt38Eok7GpTnBTGqU4SA==}
+    peerDependencies:
+      lodash: ^4.17.21
+      tailwindcss: ^3.4.1
+    dev: false
+
   /fresh/0.5.2:
     resolution: {integrity: sha512-zJ2mQYM18rEFOudeV4GShTGIQ7RbzA7ozbU9I/XBpm7kqgMywgmylMwXHxZJmkVoYkna9d2pVXVXPdYTP9ej8Q==}
     engines: {node: '>= 0.6'}
@@ -4880,6 +4893,16 @@ packages:
       fsevents: 2.3.3
     dev: false
 
+  /nuxt-swiper/1.2.2:
+    resolution: {integrity: sha512-y4s/srISP4OuhXbYg9/W1/6EWnbcoHRGEKBKAvGP0I2h0b3enhqZNEk7854M3F89ys8waacBXektPzamgl5xwQ==}
+    dependencies:
+      '@nuxt/kit': 3.11.2
+      swiper: 10.3.1
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+    dev: false
+
   /nuxt/3.11.2:
     resolution: {integrity: sha512-Be1d4oyFo60pdF+diBolYDcfNemoMYM3R8PDjhnGrs/w3xJoDH1YMUVWHXXY8WhSmYZI7dyBehx/6kTfGFliVA==}
     engines: {node: ^14.18.0 || >=16.10.0}
@@ -6302,6 +6325,11 @@ packages:
       picocolors: 1.0.0
     dev: false
 
+  /swiper/10.3.1:
+    resolution: {integrity: sha512-24Wk3YUdZHxjc9faID97GTu6xnLNia+adMt6qMTZG/HgdSUt4fS0REsGUXJOgpTED0Amh/j+gRGQxsLayJUlBQ==}
+    engines: {node: '>= 4.7.0'}
+    dev: false
+
   /system-architecture/0.1.0:
     resolution: {integrity: sha512-ulAk51I9UVUyJgxlv9M6lFot2WP3e7t8Kz9+IS6D4rVba1tR9kON+Ey69f+1R4Q8cd45Lod6a4IcJIxnzGc/zA==}
     engines: {node: '>=18'}
@@ -6481,6 +6509,10 @@ packages:
 
   /ufo/1.5.3:
     resolution: {integrity: sha512-Y7HYmWaFwPUmkoQCUIAYpKqkOf+SbVj/2fJJZ4RJMCfZp0rTGwRbzQD+HghfnhKOjL9E01okqz+ncJskGYfBNw==}
+    dev: false
+
+  /uikit/3.21.5:
+    resolution: {integrity: sha512-hGnj8k/zt/1buyWBsU8bWAoBn3qlpm7S7pU//az1L+iRQcRDUfzYcjBVm48Jd1RDjVhFA015i2Qn0ibYmv2Qnw==}
     dev: false
 
   /ultrahtml/1.5.3:

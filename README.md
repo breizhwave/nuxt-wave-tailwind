@@ -49,11 +49,12 @@ $ pnpm generate
   please try  [`pnpm add unstorage]` (https://github.com/nuxt/nuxt/issues/22828#issuecomment-1769180213)
 
 
-## current issues
+## TODO / current issues
 
+- slides :  display navigation
 - <i>Hydration class mismatch on</i> AOS elements in dev mode
 
 ## credit
-
+~~~~
 - more technical details on https://webmasterbulletin.net 
 - images from  https://undraw.co/ , https://unsplash.com/ and https://wave.bzh

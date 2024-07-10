@@ -5,7 +5,7 @@
 
 <BaseNavbar :mode="useAttrs().mode"/>
 
-      <main class="text-neutral-800" :class="useAttrs().mode=='full'?'  ':'mt-20'">
+      <main class="text-neutral-800" :class="useAttrs().mode=='full'?'  ':'mt-20 '">
             <slot/>
       </main>
 
