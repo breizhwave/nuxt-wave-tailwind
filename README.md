@@ -7,10 +7,10 @@ Nuxt3 / TailwindCss template with top fixed menu and dropdown, AOS animations, b
 **Online Demo**
 
 
-- [Home page with full height hero section and 80% opaque transparent menu](https://nuxt-wave-tailwind-6wfbca45k-breizhwaves-projects.vercel.app/)
+- [Home page with full height hero section and 80% opaque transparent menu](https://nuxt-wave-tailwind-git-main-breizhwaves-projects.vercel.app/)
 
-- [About Page with variable height section and content padding](https://nuxt-wave-tailwind-6wfbca45k-breizhwaves-projects.vercel.app/about)
-- [slider]
+- [About Page with variable height section and content padding](https://nuxt-wave-tailwind-git-main-breizhwaves-projects.vercel.app/about)
+- [slider](https://nuxt-wave-tailwind-git-main-breizhwaves-projects.vercel.app/slider/swiper)
 
 
 ![Thumbnail](assets/img/illustrations/screenshot.jpg)
