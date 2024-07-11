@@ -49,4 +49,4 @@ methods: {
 }
 
 }
-</script>
+</script><style scoped>ul {width:200px}</style>

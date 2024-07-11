@@ -72,7 +72,7 @@ const arrImages=
     ];
 
 // const getImageUrl = (imagename) => { const imageUrl = new URL(`/assets/img/${imagename}`, import.meta.url).href; return imageUrl; };
-function pathForImage(filename) { return "/images/slider/" + filename;}
+function pathForImage(filename) { return "/images/slider/" + filename;} // TODO : global path for image
 useHead({
   // title: 'My App',
   // meta: [

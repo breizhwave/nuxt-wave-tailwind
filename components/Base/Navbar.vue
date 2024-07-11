@@ -15,8 +15,10 @@
             :class="[open ? 'flex' : 'hidden lg:flex']"
             class="w-full h-auto flex flex-col flex-grow lg:items-center pb-4 lg:pb-0 lg:justify-end lg:flex-row origin-top duration-300 xl:space-x-2 space-y-3 lg:space-y-0"
         >
-          <BaseNavLinkDropDown name="Components" url="#">
-            <BaseNavLink name="Swiper Slider" url="/slider/swiper"   class=" py-2     text-gray-700 hover:bg-gray-100"  />
+          <BaseNavLinkDropDown name="Effects" url="#">
+            <BaseNavLink name="Swiper Slider" url="/effects/swiper"   class=" py-2     text-gray-700 hover:bg-gray-100"  />
+            <BaseNavLink name="animejs" url="/effects/anime"   class=" py-2     text-gray-700 hover:bg-gray-100"  />
+            <BaseNavLink name="motion" url="/effects/motion"   class=" py-2     text-gray-700 hover:bg-gray-100"  />
 <!--            <BaseNavLink name="Tiny Slider" url="/slider/tiny"   class=" py-2     text-gray-700 hover:bg-gray-100"  />-->
 <!--            <BaseNavLink name="FANKENUI" url="/slider/frankenui"   class=" py-2     text-gray-700 hover:bg-gray-100"  />-->
           </BaseNavLinkDropDown>
