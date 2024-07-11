@@ -52,7 +52,7 @@ $ pnpm generate
 
 ## TODO / current issues
 
-- slides :  display navigation
+- better animations 
 - <i>Hydration class mismatch on</i> AOS elements in dev mode
 
 ## credit
