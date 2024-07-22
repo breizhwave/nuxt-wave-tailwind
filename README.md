@@ -4,13 +4,18 @@
 
 Nuxt3 / TailwindCss template with top fixed menu and dropdown, AOS animations, based on nuxt2 [NEFA](https://www.tailwindawesome.com/resources/nefa)
 
-**Online Demo**
+## Online Demo 
+
+### layout 
 
 
 - [Home page with full height hero section and 80% opaque transparent menu](https://nuxt-wave-tailwind-git-main-breizhwaves-projects.vercel.app/)
-
 - [About Page with variable height section and content padding](https://nuxt-wave-tailwind-git-main-breizhwaves-projects.vercel.app/about)
-- [slider](https://nuxt-wave-tailwind-git-main-breizhwaves-projects.vercel.app/slider/swiper)
+
+### effects and animations
+- [touch slider with infinite loop by swiper](https://nuxt-wave-tailwind-git-main-breizhwaves-projects.vercel.app/effects/swiper)
+- [entry animation by animejs](https://nuxt-wave-tailwind-git-main-breizhwaves-projects.vercel.app/effects/anime)
+- [scroll based horizontal text translation by motion](https://nuxt-wave-tailwind-git-main-breizhwaves-projects.vercel.app/effects/motion)
 
 
 ![Thumbnail](assets/img/illustrations/screenshot.jpg)
